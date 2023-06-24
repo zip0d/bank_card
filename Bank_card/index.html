@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <section>
+    <form action="" class="Card_Info" placeholder="">
+
+        <input type="text" class="number" placeholder="Укажите номер карты">
+        <input type="text" class="name" placeholder="Укажите имя владельца карты">
+        <input type="text" class="date" placeholder="Укажите срок действия карты">
+        <input type="text" class="CVV" placeholder="Укажите CVV код карты">
+        <select class='bank'>
+            <option>Банк</option>
+            <option>ВТБ</option>
+            <option>Сбер<TH</option>
+            <option>Alpha</option>
+            <option>Tinkoff</option>
+            <option>QIWI</option>
+        </select>
+        <select class="payment">
+            <option>Тип</option>
+            <option>VISA</option>
+            <option>Mastercard</option>
+            <option>Union</option>
+            <option>Мир</option>
+            <option>Wise</option>
+        </select>
+        <button type="submit">Готово</button> 
+        <button type="reset">Очистить</button> 
+    </form>
+    <div class="card front"> 
+        <div class="Card_bank"></div>
+        <div class="Card_name"></div>
+    </div>
+    <div class="card back"> 
+        <div class = "Card_blackline"></div>
+        <div class="Card_number"></div>
+        <div class="drow">        
+            <div class="Card_date"></div> 
+            <div class="Card_CVV"></div>
+        </div>
+        <div class="Card_type"></div>
+    </div>
+</section>
+<section class="cards">
+
+</section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
